@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>娱乐个人网站</title>
+	<link rel="stylesheet" href="./SYstyle.css" type="text/css">
+	</head>
+	<body class="flex body" onkeydown="if(event.keyCode==27) return false;" style="height: 700px; margin: 0 auto;">
+		<header>
+		<div class="div01">
+			<img src="./1.jpg" alt="bilbil" width="80px" height="80px" >
+			<nav class="wz01">
+				<a href="#">首页</a>
+				<a href="#">吃饭</a>
+				<a href="#">睡觉</a>
+				<a href="https://www.4399.com/">游戏</a>
+				<a href="https://www.dm530p.net/">动漫</a>
+		<div class="dropdown">
+			<button class="dropbtn">日常任务▽</button>
+			<div class="dropdown-content">
+				<a href="#">日常任务详细</a>
+				<a href="D:\HTML5\cunc\XIEC/cj.html">抽奖</a>
+				<a href="#">成就</a>
+				<a href="#">未知(到时候想到要加什么的时候再加)</a>
+			</div>
+		</div>
+		</div>
+		<div class="box3"></div>
+		<video id="v1" autoplay loop muted>
+			<source src="./1920.mp4" type="video/mp4">
+		</video>
+		<div class="box1"></div>
+		<div class="bt1">
+		<h3>---  关于网站  ---</h3>
+		</div>
+		<div class="txt1">
+			<p>我制作的第一个上传到网上的网站，虽然现在还很简陋但是我还在以我的想法
+				<p>一步步去完善这个网站，具体完善到什么样子这就不清楚了，</p>
+						<p>随心所欲想到什么样做成什么样，注这个网</p>
+								<p>站素材都是网上翻。</p>
+							<p>日常任务中的抽奖是可以玩的</p>
+		</div>
+		<div class="bt1">
+		<h3>---  我的爱好 ---</h3>
+		</div>
+		<div class="box2">
+			<div class="xbox1"><h3 class="wz02">美食</h3></div>
+			<div class="xbox2"><h3 class="wz02">动漫</h3></div>
+			<div class="xbox3"><h3 class="wz02">游戏</h3></div>
+			<div class="xbox4"><h3 class="wz02">简单游戏创作</h3></div>
+		</div>
+		<div class="bt1">
+		<h3>---  我制作的简单游戏 ---</h3>
+		</div>
+		<div class="box2">
+			<div class="xbox1"><h3 class="wz02">目前</h3></div>
+			<div class="xbox2"><h3 class="wz02">还没有</h3></div>
+			<div class="xbox3"><h3 class="wz02">游戏</h3></div>
+			<div class="xbox4"><h3 class="wz02">正在学习制作</h3></div>
+		</nav>
+		</header>
+		<script type="text/javascript">
+		    (function() {var coreSocialistValues = ["吃饭", "睡觉", "游戏", "工作","动漫"], index = Math.floor(Math.random() * coreSocialistValues.length);document.body.addEventListener('click', function(e) {if (e.target.tagName == 'A') {return;}var x = e.pageX, y = e.pageY, span = document.createElement('span');span.textContent = coreSocialistValues[index];index = (index + 1) % coreSocialistValues.length;span.style.cssText = ['z-index: 9999999; position: absolute; font-weight: bold; color: #ff6651; top: ', y - 20, 'px; left: ', x, 'px;'].join('');document.body.appendChild(span);animate(span);});function animate(el) {var i = 0, top = parseInt(el.style.top), id = setInterval(frame, 16.7);function frame() {if (i > 180) {clearInterval(id);el.parentNode.removeChild(el);} else {i+=2;el.style.top = top - i + 'px';el.style.opacity = (180 - i) / 180;}}}}());
+		</script>
+		<footer>
+			<div class="div_foot">
+			我的网站（本网站只用来娱乐和练习非商用）
+			<p>@炎</p>
+			</div>	
+		</footer>
+	</body>	
+</html>

@@ -1,0 +1,141 @@
+<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.dropbtn {
+		background-color:transparent;/*子下拉首页背景颜色*/
+		color: #000066;/*定义主体的文字颜色*/
+		padding: 16px;
+		font-size: 16px;/*设置HTML元素的字体大小：*/
+		border: none;/*自定义边框*/
+		cursor: pointer;/*定义了鼠标指针放在一个元素边界范围内时所用的光标形状*/
+		overflow: inherit;
+		}
+		.dropdown {
+		position: relative;/*绝对定位：生成相对定位的元素，相对于其正常位置进行定位*/
+		display: inline-block;/*设置 display 不同属性：行内块元素*/
+		}
+		.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;/*下拉框背景颜色*/
+		width: 100%;;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		}
+		.dropdown-content a {		color: #4CAF50;/*子菜单字体背景颜色*/
+		padding: 12px 16px;/*设置一个P元素的填充：*/
+		text-decoration: none;/*设置文本元素装饰*/
+		display: block;/*设置属性：此元素前后会带有换行符。*/
+		}
+		.dropdown-content a:hover {
+		background-color: #f1f1f1;/*选中后的子菜单的颜色*/
+		}
+		.dropdown:hover .dropdown-content {
+		display: block;
+		}
+		.dropdown:hover .dropbtn {
+		background-color: transparent;/*母体选中下拉菜单的颜色*/		}
+		.div01 {
+		height: 80px;
+		width: 2000px;
+		display: flex; /*设置成弹性盒子*/
+		text-align:center;/*文本对齐方式：水平对齐*/
+		position: fixed;/*生成固定定位的元素，相对于浏览器窗口进行定位。*/
+		top: 0;/*属性规定元素的顶部边缘,定义与浏览器顶部距离多少*/
+		background: #f9f9f9;
+		background-color: rgba(0, 0, 0, 0.1);
+		}
+		.wz01 {
+		padding-top: 15px;/*属性把文字上边距设置为15px*/
+		padding-left: 30px;/*属性把文字左边距设置为30px*/
+		}
+		.box3 {
+			height: 90px;
+		}
+		a {
+		padding-left: 15px;
+		text-decoration: none;/*用来设置或删除文本的装饰,主要是用来删除链接的下划线*/
+		}
+		video {
+		/*position: fixed;*//*让视频始终在屏幕中间*/
+		right: 0px;
+		bottom: 0px;/*设置图像的底部边缘*/
+		min-width: 100%;
+		min-height: 100%;
+		height: auto;
+		width: 1850px;
+		position:relative;/*定位元素:正常位置进行定位*/
+		z-index: -11;/*属性指定一个元素的堆叠顺序.拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面*/
+		/*加滤镜*/
+		/*filter：blur(15px);//背景模糊设置*/
+		/*-webkit-filter: gratscale(100%);*/
+		/*filter: grayscale(100%);//背景灰度设置*/
+		}
+		source {
+		min-width: 100%;/*设置段落的最小宽度：*/
+		min-height: 100%;/*设置段落的最小高度：*/
+		height: auto;
+		width: auto;
+		}
+		.box1 {
+		height: 10px;
+		}
+		.bt1 {
+		text-align:center;
+		font-size: 30px;
+		}
+		.txt1 {
+		text-align:center;
+		padding-top: 50px;/*设置一个P元素的顶部填充*/
+		height: 500px;
+		font-size: 20px;
+		line-height: 50px;
+		}
+		.box2 {
+		height: 500px;
+		width: 1850;
+		display: block;
+		display: flex;
+		justify-content: center;/*用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。*/
+		margin-top: 50px;
+		}
+		.box2 div {
+		width: 250px;
+		height: 400px;
+		background-color: #bbbbbb;/*属性设置一个元素的背景颜色*/
+		background-repeat: no-repeat;/*设置如何平铺对象的:垂直重复*/
+		border-radius: 5px;/*允许你设置元素的外边框圆角*/
+		margin-left: 50px;
+		text-align:center;
+		position: relative;
+		}
+		.xbox1{
+			background-image: url('2.jpg');/*属性设置背景图像*/
+			background-position: -100px 0px;/*属性设置背景图像的位置“第一个值，负是往左移动，正是往右移。第二个值，负是往上移动，正是往下移动”*/
+		
+		}
+		.xbox2 {
+			background-image: url('3.jpg');
+			background-position: -150px -0px;
+		}
+		.xbox3 {
+			background-image: url('4.jpg');
+			background-position: -85px -0px;
+		}
+		.xbox4 {
+			background-image: url('5.jpg');
+			background-position: -100px -0px;
+		}
+		.wz02 {
+			position: absolute;
+			bottom: 0;
+			left: 40%;
+		}
+		.div_foot {
+		text-align:center;
+		position:fixed; /*绝对定位：对于浏览器窗口进行定位*/
+		bottom:10px; 
+		left:75%;
+		}
+	</style>
